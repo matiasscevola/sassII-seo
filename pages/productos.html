@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!----------- Bootstrap CSS -------------------->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="..//css/preuba.css">
+	<title>La Cajita Musical</title>
+	
+</head>	
+	<body>	
+		<!--------------------inicia nav----------------->
+		<header>		
+			<nav class="navbar navbar-expand-lg navbar-dark" id="botonera">
+				<div class="container-fluid">
+				<a class="navbar-brand animate__animated animate__rotateIn" href="../index.html">
+					<img  src="../img/milogo.png" alt="logo" width="30%">
+				</a>
+				<button class="navbar-toggler navbar navbar bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active " aria-current="page" href="ofertas.html">Ofertas</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active " href="productos.html">Productos</a>
+						</li>
+					
+						<li class="nav-item">
+						<a class="nav-link active " href="sucursales.html">sucursales</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active " href="contacto.html">contacto</a>
+						</li>
+					</ul>
+					
+				</div>
+				</div>
+			</nav>
+		</header>
+	
+	<!--------------------end nav----------------------->
+
+	<!--------------------main con carousel------------->
+		<main>
+			<div class="animate carrusel">
+				<div>
+					<h1>Nuestros Productos</h1>
+		    	</div>
+			
+			  	<div id="carouselExampleFade" class="container-fluid w-50 carousel slide carousel-fade" data-bs-ride="carousel">
+					<div class="carousel-inner">
+			 			<div class="carousel-item active">
+							<img src="../img/guitarraUltima.jpg" class="d-block w-100" alt="guitarra">
+			  			</div>
+			  			<div class="carousel-item">
+							<img src="../img/bajoUltimo.jpg" class="d-block w-100" alt="bajo">
+			  			</div>
+			  			<div class="carousel-item">
+							<img src="../img/bataUltima.jpg" class="d-block w-100" alt="bateria">
+			  			</div>
+			  			<div class="carousel-item">
+							<img src="../img/equiposUltimo.jpg" class="d-block w-100" alt="flauta traversa">
+			  			</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+			  			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  			<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+			  			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  			<span class="visually-hidden">Next</span>
+					</button>
+		   		</div>
+			</div>	   
+	  	</main>	
+	<!-------------------end carousel------------->
+	
+	
+	<!-------------------inicia footer------------>
+	<footer>
+		<div class="d-flex flex-row content-center justify-content-center bd-highlight" id="footerBg">
+			<div class=" p-2 bd-highlight"><a href="https://facebook.com" target="_blank">	
+				<i class="bi bi-facebook f"></i></a>
+			</div>
+			<div class=" p-2 bd-highlight"><a href="https://instagram.com" target="_blank">	
+				<i class="bi bi-instagram i"></i></a>
+			</div>
+			<div class=" p-2 bd-highlight"><a href="https://gmail.com" target="_blank">
+				<i class="bi bi-envelope gM"></i></a>
+			</div>
+		</div>
+
+	</footer>
+	<!-----------------end footer------------------>
+
+		<script
+			 src="../css/wow.min.js">
+		</script>
+		<script>
+			new WOW().init();
+		</script>
+		<script 
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+		</script>
+
+	</body>
+</html>
