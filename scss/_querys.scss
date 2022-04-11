@@ -1,0 +1,37 @@
+@media (max-width: 577px ) and (min-width: 50px)
+{
+	.mapa{
+		display: none;
+	}
+
+	#formNone{
+		display: none;
+	}
+	#tableOfertas{
+		display: none;
+	}
+	#asideOfertas{
+		display: none;
+	}
+	.pCenter p{
+		font-size: 0.5em;
+	}
+#tableNone{
+		display: none;
+		
+	}
+}
+@media only screen and (max-width: 577px ) and (min-width: 50px)
+{
+	.mapa{
+		display: none;
+	}
+
+	#formNone{
+		display: none;
+	}
+
+	.asideNostros{
+		@include texto(0.7em, white);
+	}
+}

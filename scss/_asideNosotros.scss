@@ -1,0 +1,54 @@
+#botonera{
+	background-color: rgba(41, 9, 9, 0.637);
+	
+}	
+.asideNos{ 
+	@include texto(1em, white);
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	
+
+	 .col-md-4{
+		.animate__animated{
+			.pNos{
+				background-color: #040000b5;
+			}
+		} 
+	}
+}
+
+		.logo{
+			padding-left: 25%;
+    		width: 70%;
+			
+	
+			.boton{
+				@extend .flexJustifyCenter;
+				align-items: center;
+			
+			
+				ul{
+
+				} 
+					li{
+
+					} 
+						a{
+							@include texto(1.3em, white);
+					
+						}		
+					}
+				}			
+			
+			
+
+					
+
+
+
+
+
+
+
+

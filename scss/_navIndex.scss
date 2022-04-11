@@ -1,0 +1,27 @@
+
+div{
+    .boton{
+        
+        display: flex;
+        
+       
+        div{
+            nav{
+                div{
+                    ul{
+                        li{
+                            a{
+                                @include texto(1.3em, white);
+                               
+                               
+                                }    
+                            }
+                        }
+                       
+                    }   
+                }
+            }
+        }
+    
+}        
+    

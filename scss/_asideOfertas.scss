@@ -1,0 +1,80 @@
+.aside{
+	display:inline-flex;
+	justify-content: space-evenly;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.503);
+
+	}
+	
+		.tarjetas{
+			color: rgba(251, 3, 3, 0.623);
+			border-color: white;
+			font-size: 1.5em;
+			margin-left:0.7em ;
+			background-color: rgba(0, 0, 0, 0.298);
+			}
+		.pOf{
+			display: flex;
+			justify-content: center;
+			color: #FFFFFF;
+		}
+			
+		
+	
+		
+			.ofertasDelMes{
+				color: white;
+				position: sticky;
+				background-color: rgba(0, 0, 0, 0.63);
+				border-radius: 10%;
+				text-align: center;
+				
+			}
+		
+
+	
+.pO{
+	@include texto(1.3em,white);
+	@extend .flexJustifyCenter;
+	@extend .degrade;
+	
+}
+
+
+
+
+div .tablaNone{
+    display: flex;
+}
+div{
+	.table{
+		@extend .degrade;
+		border: 1px solid #FFFFFF;
+		border-collapse: collapse #FFFFFF;
+		font-size: 1em;
+		background-color: rgb(44, 12, 12);
+		width: 50%;
+
+	}
+		thead{
+			tr{
+				th{
+					font-size: 2em;
+					color: white;
+					@extend.degrade;
+				}
+			}
+
+		}
+		tbody{
+			tr{
+				td{
+					@extend .degrade;
+					font-size: 2em;
+					border: 1px solid #4d2222;
+					padding: 3.125em;
+					
+				}
+			}
+		}
+	}

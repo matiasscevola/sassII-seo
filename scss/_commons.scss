@@ -1,0 +1,31 @@
+//variables
+    
+$color: black;
+$secondColor: white;
+$keyColor:red;
+
+//extend
+.degrade{
+    color: azure;
+	background: linear-gradient(70deg, black, rgba(85, 25, 25, 0.5));
+}
+
+.flexJustifyCenter{
+    display: flex;
+    justify-content: center;
+}
+
+//mixin
+
+@mixin texto ($font-size,$color){
+    font-size: $font-size;
+    color: $color;
+}
+    
+//map
+
+$shadow:(
+    'sh1':25px 10px 5px 0px white,
+    'sh2':25px 10px 5px 0px grey,
+    'sh3':25px 10px 5px 0px rgb(79, 20, 20)
+    );

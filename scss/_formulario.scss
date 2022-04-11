@@ -1,0 +1,38 @@
+.mainNos {
+	
+	color: white;
+	margin-left: 10%;
+	display: flex;
+	justify-content: flex-start;
+
+	.row {
+		flex-direction: column;
+
+		
+	}
+ }
+
+		.container{
+			
+			
+			height:1em ;
+			align-items: center;
+			margin-top: 0%;
+			margin-left: 15%;
+		} 
+
+			.form{
+			
+				flex-flow: column;
+				background-color: #040000;
+				background-size: cover;
+				align-items: center;
+				box-shadow: rgba(0, 0, 0, 0.8);
+				border-radius: 0.625em;
+				margin-top: auto;
+			}
+				.textArea{
+					padding: 1.875em;
+					height: 1.875em;
+				}
+

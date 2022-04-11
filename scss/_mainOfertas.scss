@@ -1,0 +1,74 @@
+main{
+    div{
+        article{
+            .pCenter{
+        
+                text-align: center;
+        
+            }
+            p{
+                @include texto(1.5em, white);
+                background-color: transparent;
+
+                    .pO{
+                    @extend .degrade;
+                }
+            }
+        }    
+
+    }
+}   section{
+    div{
+        .row{
+
+            display:flex;  
+        }
+        div{
+
+            .pO{  
+                @extend .degrade;
+            }
+        }
+        div{
+
+            .pO{  
+                @extend .degrade;   
+            }
+        }
+        div{
+
+            .pO{  
+                @extend .degrade;
+            }
+        }
+    }
+   div{
+        .table{
+            @extend .degrade;
+            border: 1px solid #FFFFFF;
+            border-collapse: collapse #FFFFFF;
+            font-size: 1em;
+            background-color: rgb(44, 12, 12);
+            width: 50%;
+
+        }
+            thead{
+                tr{
+                    th{
+                        @include texto(2em, white)
+                    }
+                }
+
+            }
+            tbody{
+                tr{
+                    td{
+                        @extend .degrade;
+                        @include texto (2em, white);
+                        border: 1px solid #4d2222;
+                        padding: 3.125em;
+                    }
+                }
+            }
+    }
+}

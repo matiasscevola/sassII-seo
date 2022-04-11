@@ -1,0 +1,14 @@
+main{
+    .mainNos{
+    @extend .flexJustifyCenter;  	
+	color: white;
+	margin-left: 10%;
+
+    }
+}
+.sucursalesTitulo{
+    @extend .flexJustifyCenter;
+    color: white;
+    text-shadow: 2%;
+   
+}

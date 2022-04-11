@@ -1,0 +1,27 @@
+header{ 
+    .flex-container{ 
+        position: sticky;
+          
+    } 
+        div{ 
+           @extend .flexJustifyCenter;
+        
+                   
+                a{
+                    @extend .flexJustifyCenter;
+                    @include texto(1.5em,red);
+                   
+                    }
+                    img{
+                        width: 70%;
+                        margin-top: 15%;
+                        margin-left: 5%;
+                    
+            }
+        }
+           
+} 
+
+    .p{
+        background-color: antiquewhite;
+    }

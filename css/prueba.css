@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.degrade, .pO, div .table, div thead tr th, div tbody tr td, main div div h1 {
+  color: azure;
+  background: linear-gradient(70deg, black, rgba(85, 25, 25, 0.5)); }
+
+.flexJustifyCenter, header div, header div a, .logo .boton, main .mainNos, .sucursalesTitulo, .pO, main div div h1 {
+  display: flex;
+  justify-content: center; }
+
+div .boton {
+  display: flex; }
+  div .boton div nav div ul li a {
+    font-size: 1.3em;
+    color: white; }
+
+header .flex-container {
+  position: sticky; }
+
+header div a {
+  font-size: 1.5em;
+  color: red; }
+
+header div img {
+  width: 70%;
+  margin-top: 15%;
+  margin-left: 5%; }
+
+.p {
+  background-color: antiquewhite; }
+
+body {
+  background-image: url(../img/bateria.jpg);
+  background-size: 100%;
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: auto; }
+
+header {
+  position: sticky; }
+  header nav div a img {
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 5%; }
+
+div .boton {
+  display: flex; }
+  div .boton div nav div ul li a {
+    font-size: 1.3em;
+    color: white; }
+
+#botonera {
+  background-color: rgba(41, 9, 9, 0.637); }
+
+.asideNos {
+  font-size: 1em;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline; }
+  .asideNos .col-md-4 .animate__animated .pNos {
+    background-color: #040000b5; }
+
+.logo {
+  padding-left: 25%;
+  width: 70%; }
+  .logo .boton {
+    align-items: center; }
+    .logo .boton a {
+      font-size: 1.3em;
+      color: white; }
+
+main .mainNos {
+  color: white;
+  margin-left: 10%; }
+
+.sucursalesTitulo {
+  color: white;
+  text-shadow: 2%; }
+
+.aside {
+  display: inline-flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.503); }
+
+.tarjetas {
+  color: rgba(251, 3, 3, 0.623);
+  border-color: white;
+  font-size: 1.5em;
+  margin-left: 0.7em;
+  background-color: rgba(0, 0, 0, 0.298); }
+
+.pOf {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF; }
+
+.ofertasDelMes {
+  color: white;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 10%;
+  text-align: center; }
+
+.pO {
+  font-size: 1.3em;
+  color: white; }
+
+div .tablaNone {
+  display: flex; }
+
+div .table {
+  border: 1px solid #FFFFFF;
+  border-collapse: collapse #FFFFFF;
+  font-size: 1em;
+  background-color: #2c0c0c;
+  width: 50%; }
+
+div thead tr th {
+  font-size: 2em;
+  color: white; }
+
+div tbody tr td {
+  font-size: 2em;
+  border: 1px solid #4d2222;
+  padding: 3.125em; }
+
+main .mainNos {
+  color: white;
+  margin-left: 10%; }
+
+.sucursalesTitulo {
+  color: white;
+  text-shadow: 2%; }
+
+footer .foo {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.781); }
+  footer .foo div .fa {
+    font-size: 3em;
+    color: blue;
+    margin: 10px; }
+    footer .foo div .fa:hover {
+      color: white; }
+  footer .foo .i {
+    font-size: 3em;
+    color: #8a3ab9;
+    margin: 10px; }
+    footer .foo .i:hover {
+      color: white; }
+  footer .foo .gM {
+    font-size: 3em;
+    color: red;
+    margin: 10px; }
+    footer .foo .gM:hover {
+      color: white; }
+
+main div div h1 {
+  font-size: 1.5;
+  color: white; }
+
+.mainNos {
+  color: white;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-start; }
+  .mainNos .row {
+    flex-direction: column; }
+
+.container {
+  height: 1em;
+  align-items: center;
+  margin-top: 0%;
+  margin-left: 15%; }
+
+.form {
+  flex-flow: column;
+  background-color: #040000;
+  background-size: cover;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.8);
+  border-radius: 0.625em;
+  margin-top: auto; }
+
+.textArea {
+  padding: 1.875em;
+  height: 1.875em; }
+
+.mapa {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5%; }
+
+@media (max-width: 577px) and (min-width: 50px) {
+  .mapa {
+    display: none; }
+  #formNone {
+    display: none; }
+  #tableOfertas {
+    display: none; }
+  #asideOfertas {
+    display: none; }
+  .pCenter p {
+    font-size: 0.5em; }
+  #tableNone {
+    display: none; } }
+
+@media only screen and (max-width: 577px) and (min-width: 50px) {
+  .mapa {
+    display: none; }
+  #formNone {
+    display: none; }
+  .asideNostros {
+    font-size: 0.7em;
+    color: white; } }
