@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0; }
 
-.degrade, .pO, div .table, div thead tr th, div tbody tr td, main div div h1 {
+.degrade, .pO, div .table, div thead tr th, div tbody tr td, .animate .productos {
   color: azure;
   background: linear-gradient(70deg, black, rgba(85, 25, 25, 0.5)); }
 
-.flexJustifyCenter, header div, header div a, .logo .boton, main .mainNos, .sucursalesTitulo, .pO, main div div h1 {
+.flexJustifyCenter, header div, header div a, .logo .boton, main .mainNos, .sucursalesTitulo, .pO, .animate .productos {
   display: flex;
   justify-content: center; }
 
@@ -103,7 +103,8 @@ main .mainNos {
 .pOf {
   display: flex;
   justify-content: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 1.5em; }
 
 .ofertasDelMes {
   color: white;
@@ -166,8 +167,8 @@ footer .foo {
     footer .foo .gM:hover {
       color: white; }
 
-main div div h1 {
-  font-size: 1.5;
+.animate .productos {
+  font-size: 1.5em;
   color: white; }
 
 .mainNos {
@@ -223,4 +224,8 @@ main div div h1 {
     display: none; }
   .asideNostros {
     font-size: 0.7em;
-    color: white; } }
+    color: white; }
+  .card-img-top {
+    width: 50%; }
+  .aside {
+    display: none; } }

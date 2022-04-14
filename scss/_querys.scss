@@ -34,4 +34,13 @@
 	.asideNostros{
 		@include texto(0.7em, white);
 	}
+
+	
+	.card-img-top{
+		width: 50%;
+	}
+	.aside{
+		display: none;
+	}
+	
 }

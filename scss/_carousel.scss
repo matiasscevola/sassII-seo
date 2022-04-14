@@ -1,14 +1,12 @@
-main{
-    div{
-        div{
-            h1{
-                @extend .degrade;
-                @extend .flexJustifyCenter;
-                @include texto (1.5, white);
-                   
-               
-	            
-            }
-        }
+.animate {
+    .productos{
+        @extend .degrade;
+        @extend .flexJustifyCenter;
+        @include texto (1.5em, white);
+           
     }
 }
+              
+               
+	            
+    
