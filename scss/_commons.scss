@@ -7,7 +7,7 @@ $keyColor:red;
 //extend
 .degrade{
     color: azure;
-	background: linear-gradient(70deg, black, rgba(85, 25, 25, 0.5));
+	background: linear-gradient(70deg, black, rgba(59, 58, 58, 0.378));
 }
 
 .flexJustifyCenter{
@@ -29,3 +29,22 @@ $shadow:(
     'sh2':25px 10px 5px 0px grey,
     'sh3':25px 10px 5px 0px rgb(79, 20, 20)
     );
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: black;
+        border-top-color: black;
+        border-right-color: black;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+    .table td, .table th {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #000000;
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #5c636a;
+    }

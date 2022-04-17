@@ -7,17 +7,17 @@
 	}
 	
 		.tarjetas{
-			color: rgba(251, 3, 3, 0.623);
+			color: rgb(255, 255, 255);
 			border-color: white;
 			font-size: 1.5em;
 			margin-left:0.7em ;
-			background-color: rgba(0, 0, 0, 0.298);
+			
 			}
 		.pOf{
 			display: flex;
 			justify-content: center;
 			color: #FFFFFF;
-			font-size: 1.5em;
+			font-size: 2em;
 		}
 			
 		
@@ -50,8 +50,8 @@ div .tablaNone{
 div{
 	.table{
 		@extend .degrade;
-		border: 1px solid #FFFFFF;
-		border-collapse: collapse #FFFFFF;
+		border: 1px solid #000000;
+		border-collapse: collapse #000000;
 		font-size: 1em;
 		background-color: rgb(44, 12, 12);
 		width: 50%;
@@ -72,7 +72,7 @@ div{
 				td{
 					@extend .degrade;
 					font-size: 2em;
-					border: 1px solid #4d2222;
+					border: 1px solid #000000;
 					padding: 3.125em;
 					
 				}

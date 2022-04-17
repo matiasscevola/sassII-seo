@@ -7,11 +7,29 @@
 
 .degrade, .pO, div .table, div thead tr th, div tbody tr td, .animate .productos {
   color: azure;
-  background: linear-gradient(70deg, black, rgba(85, 25, 25, 0.5)); }
+  background: linear-gradient(70deg, black, rgba(59, 58, 58, 0.378)); }
 
 .flexJustifyCenter, header div, header div a, .logo .boton, main .mainNos, .sucursalesTitulo, .pO, .animate .productos {
   display: flex;
   justify-content: center; }
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: black;
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-left-color: black; }
+
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #000000; }
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #5c636a; }
 
 div .boton {
   display: flex; }
@@ -54,6 +72,8 @@ body {
 
 header {
   position: sticky; }
+  header nav #botonera {
+    background-color: rgba(79, 74, 74, 0.589); }
   header nav div a img {
     width: 30%;
     margin-top: 0%;
@@ -105,17 +125,16 @@ main .mainNos {
   background-color: rgba(0, 0, 0, 0.503); }
 
 .tarjetas {
-  color: rgba(251, 3, 3, 0.623);
+  color: white;
   border-color: white;
   font-size: 1.5em;
-  margin-left: 0.7em;
-  background-color: rgba(0, 0, 0, 0.298); }
+  margin-left: 0.7em; }
 
 .pOf {
   display: flex;
   justify-content: center;
   color: #FFFFFF;
-  font-size: 1.5em; }
+  font-size: 2em; }
 
 .ofertasDelMes {
   color: white;
@@ -132,8 +151,8 @@ div .tablaNone {
   display: flex; }
 
 div .table {
-  border: 1px solid #FFFFFF;
-  border-collapse: collapse #FFFFFF;
+  border: 1px solid #000000;
+  border-collapse: collapse #000000;
   font-size: 1em;
   background-color: #2c0c0c;
   width: 50%; }
@@ -144,7 +163,7 @@ div thead tr th {
 
 div tbody tr td {
   font-size: 2em;
-  border: 1px solid #4d2222;
+  border: 1px solid #000000;
   padding: 3.125em; }
 
 main .mainNos {

@@ -45,30 +45,35 @@ main{
    div{
         .table{
             @extend .degrade;
-            border: 1px solid #FFFFFF;
-            border-collapse: collapse #FFFFFF;
+           
             font-size: 1em;
-            background-color: rgb(44, 12, 12);
+            background-color: rgba(35, 35, 35, 0.685);
             width: 50%;
 
         }
             thead{
-                tr{
+               
+                tr{ 
+                  
                     th{
-                        @include texto(2em, white)
+                        @include texto(2em, white);
+                       
                     }
                 }
 
             }
             tbody{
+              
                 tr{
+                   
                     td{
                         @extend .degrade;
                         @include texto (2em, white);
-                        border: 1px solid #4d2222;
+                       
                         padding: 3.125em;
                     }
                 }
             }
     }
 }
+
