@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 * {
+  font-family: 'Chewy', cursive;
   margin: 0;
   padding: 0; }
 
@@ -15,6 +18,10 @@ div .boton {
   div .boton div nav div ul li a {
     font-size: 1.3em;
     color: white; }
+
+.hoverBoton:hover {
+  transform: translate(7px, 15px);
+  cursor: pointer; }
 
 header .flex-container {
   position: sticky; }
@@ -57,6 +64,10 @@ div .boton {
   div .boton div nav div ul li a {
     font-size: 1.3em;
     color: white; }
+
+.hoverBoton:hover {
+  transform: translate(7px, 15px);
+  cursor: pointer; }
 
 #botonera {
   background-color: rgba(41, 9, 9, 0.637); }
@@ -215,12 +226,6 @@ footer .foo {
   .pCenter p {
     font-size: 0.5em; }
   #tableNone {
-    display: none; } }
-
-@media only screen and (max-width: 577px) and (min-width: 50px) {
-  .mapa {
-    display: none; }
-  #formNone {
     display: none; }
   .asideNostros {
     font-size: 0.7em;
@@ -228,4 +233,11 @@ footer .foo {
   .card-img-top {
     width: 50%; }
   .aside {
-    display: none; } }
+    display: none; }
+  .hoverBoton:hover {
+    transform: translate(7px, 15px);
+    cursor: pointer; } }
+
+.hover:hover {
+  transform: translate(10px, 20px);
+  cursor: pointer; }

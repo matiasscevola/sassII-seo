@@ -20,17 +20,7 @@
 		display: none;
 		
 	}
-}
-@media only screen and (max-width: 577px ) and (min-width: 50px)
-{
-	.mapa{
-		display: none;
-	}
-
-	#formNone{
-		display: none;
-	}
-
+	
 	.asideNostros{
 		@include texto(0.7em, white);
 	}
@@ -42,5 +32,8 @@
 	.aside{
 		display: none;
 	}
-	
+	.hoverBoton:hover{
+		transform: translate(7px,15px);
+		cursor: pointer;
+	}
 }
