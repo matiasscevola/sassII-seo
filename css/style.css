@@ -1,0 +1,15 @@
+
+
+
+h1{
+    text-align: center;
+   position: sticky;
+    color: red;
+  
+
+}
+.botonError{
+    display: flex;
+    justify-content: center;
+   
+}

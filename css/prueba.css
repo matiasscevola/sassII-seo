@@ -41,12 +41,22 @@ div .boton {
   transform: translate(7px, 15px);
   cursor: pointer; }
 
+header div a {
+  color: white; }
+  header div a:hover {
+    text-decoration: none;
+    color: grey;
+    cursor: pointer; }
+
 header .flex-container {
   position: sticky; }
+  header .flex-container .ulIndex {
+    display: inline;
+    margin: 10px; }
 
 header div a {
   font-size: 1.5em;
-  color: red; }
+  color: white; }
 
 header div img {
   width: 70%;
@@ -68,7 +78,7 @@ body {
   min-height: 100vh;
   align-items: stretch;
   justify-content: space-between;
-  overflow: auto; }
+  overflow-x: hidden; }
 
 header {
   position: sticky; }
@@ -206,6 +216,10 @@ footer .foo {
   margin-left: 10%;
   display: flex;
   justify-content: flex-start; }
+  .mainNos h1 {
+    color: #ffffff;
+    background-color: #04000079;
+    border-radius: 15px; }
   .mainNos .row {
     flex-direction: column; }
 
@@ -233,29 +247,73 @@ footer .foo {
   flex-direction: row-reverse;
   margin-right: 5%; }
 
-@media (max-width: 577px) and (min-width: 50px) {
+@media only screen and (min-width: 750px) {
+  #navBurguer {
+    display: none; }
+  .w-50 {
+    width: 50% !important; } }
+
+@media (max-width: 750px) and (min-width: 50px) {
   .mapa {
     display: none; }
   #formNone {
     display: none; }
-  #tableOfertas {
-    display: none; }
-  #asideOfertas {
-    display: none; }
   .pCenter p {
     font-size: 0.5em; }
-  #tableNone {
-    display: none; }
   .asideNostros {
     font-size: 0.7em;
     color: white; }
-  .card-img-top {
-    width: 50%; }
   .aside {
     display: none; }
   .hoverBoton:hover {
     transform: translate(7px, 15px);
-    cursor: pointer; } }
+    cursor: pointer; }
+  #nav {
+    display: none; }
+  div .table {
+    display: none; }
+  body {
+    background-size: 100vh; }
+  footer .foo {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.781); }
+    footer .foo div .fa {
+      font-size: 2em;
+      color: blue;
+      margin: 10px; }
+      footer .foo div .fa:hover {
+        color: white;
+        cursor: pointer; }
+    footer .foo .i {
+      font-size: 2em;
+      color: #8a3ab9;
+      margin: 10px; }
+      footer .foo .i:hover {
+        color: white;
+        cursor: pointer; }
+    footer .foo .gM {
+      font-size: 2em;
+      color: red;
+      margin: 10px; }
+      footer .foo .gM:hover {
+        color: white;
+        cursor: pointer; }
+  .w-50 {
+    width: 85% !important; }
+  .pOf {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.5em; }
+  #tableOfertas {
+    display: none; }
+  #asideOfertas {
+    display: none; }
+  #tableNone {
+    display: none; }
+  .card-img-top {
+    width: 100%; } }
 
 .hover:hover {
   transform: translate(10px, 20px);

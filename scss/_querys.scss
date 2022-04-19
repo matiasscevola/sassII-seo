@@ -1,5 +1,16 @@
-@media (max-width: 577px ) and (min-width: 50px)
+@media only screen and (min-width: 750px)
 {
+	#navBurguer{
+		display: none;
+	}
+	.w-50 {
+		width: 50%!important;
+	}
+}
+@media (max-width: 750px ) and (min-width: 50px)
+{
+	
+	//contactos
 	.mapa{
 		display: none;
 	}
@@ -7,28 +18,16 @@
 	#formNone{
 		display: none;
 	}
-	#tableOfertas{
-		display: none;
-	}
-	#asideOfertas{
-		display: none;
-	}
+	
 	.pCenter p{
 		font-size: 0.5em;
 	}
-#tableNone{
-		display: none;
-		
-	}
+
 	
 	.asideNostros{
 		@include texto(0.7em, white);
 	}
 
-	
-	.card-img-top{
-		width: 50%;
-	}
 	.aside{
 		display: none;
 	}
@@ -36,4 +35,87 @@
 		transform: translate(7px,15px);
 		cursor: pointer;
 	}
+
+	#nav{
+		display: none;
+	}
+	div .table{
+		display: none;
+	}
+	body{
+		background-size: 100vh;
+		
+	}
+
+//footer
+
+	footer{ 
+		.foo{
+		display: flex;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.781);
+		
+		  div .fa{
+			   @include texto(2em,blue);
+			   margin: 10px;
+			
+				&:hover{
+				color:white;
+				cursor: pointer;
+				}
+			}
+			
+					.i{
+						@include texto(2em,#8a3ab9);
+						margin: 10px;
+					
+					&:hover{
+						color:white;
+						cursor: pointer;
+					}
+				}
+				
+					.gM{
+					   @include texto(2em,red);
+						margin: 10px;
+					&:hover{
+						color:white;
+						cursor: pointer;
+					}
+				}
+			}
+	
+		}
+				
+		
+		//carousel
+		.w-50 {
+			width: 85%!important;
+		}
+		
+		
+		
+		//Ofertas
+		.pOf{
+			display: flex;
+			justify-content: center;
+			color: #FFFFFF;
+			font-size: 1.5em;
+		}
+
+		#tableOfertas{
+			display: none;
+		}
+		#asideOfertas{
+			display: none;
+		}
+		#tableNone{
+			display: none;
+			
+		}
+		
+		//Sucursales
+		.card-img-top {
+			width: 100%;
+		}
 }

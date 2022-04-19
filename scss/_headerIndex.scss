@@ -1,6 +1,26 @@
 header{ 
+    div{
+        a{
+            color: white;
+           
+            
+        
+        &:hover{
+            text-decoration: none;
+            color: grey;
+            cursor: pointer;
+
+        }
+        }
+}
     .flex-container{ 
         position: sticky;
+
+        .ulIndex{
+            display:inline;
+            margin: 10px;
+           }
+         
           
     } 
         div{ 
@@ -9,7 +29,7 @@ header{
                    
                 a{
                     @extend .flexJustifyCenter;
-                    @include texto(1.5em,red);
+                    @include texto(1.5em, rgb(255, 255, 255));
                    
                     }
                     img{
@@ -25,3 +45,5 @@ header{
     .p{
         background-color: antiquewhite;
     }
+
+   
